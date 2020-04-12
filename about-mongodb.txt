@@ -1,0 +1,31 @@
+MongoDB is a cross-platform, document oriented database that provides, high performance, high availability, and easy scalability.
+Classified as a NoSQL database program, MongoDB uses JSON-like documents with schema.
+MongoDB is developed by MongoDB Inc. and licensed under the Server Side Public License (SSPL).
+
+MongoDB lets you store things (called documents) inside databases.
+
+Database
+Database is a physical container for collections.
+Each database gets its own set of files on the file system. A single MongoDB server typically has multiple databases.
+
+Collection
+Collection is a group of MongoDB documents. It is the equivalent of an RDBMS table.
+A collection exists within a single database. Collections do not enforce a schema. Documents within a collection can have different fields.
+Typically, all documents in a collection are of similar or related purpose.
+
+Document
+A document is a set of key-value pairs. Documents have dynamic schema.
+Dynamic schema means that documents in the same collection do not need to have the same set of fields or structure,
+and common fields in a collection's documents may hold different types of data.
+
+The following table shows the relationship of RDBMS terminology with MongoDB.
+RDBMS 	    |    MongoDB
+Database 	|    Database
+Table 	    |    Collection
+Tuple/Row 	|    Document
+column 	    |    Field
+Table Join 	|    Embedded Documents
+Primary Key |	 Primary Key (Default key _id provided by MongoDB itself)
+
+MongoDB Documentation:
+https://docs.mongodb.com/manual/

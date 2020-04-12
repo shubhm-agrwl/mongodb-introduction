@@ -1,0 +1,31 @@
+For Unix
+
+Section 1: Installing/ Running MongoDB
+Step 1:
+$ brew tap mongodb/brew
+
+Step 2:
+$ brew install mongodb-community@4.2
+
+Step 3:
+To start MongoDB server:
+$ mongod
+
+Step 4:
+Verify whether MongoDB server has started successfully:
+$ curl http://localhost:27017
+Response: It looks like you are trying to access MongoDB over HTTP on the native driver port.
+
+Mongo Shell:
+$ mongo
+
+To check version
+$ mongo --version
+
+Section 2: Visualize MongoDB data
+Download Robo3T from https://robomongo.org/download
+Connect MongoDB with host, port, authentication, etc.
+Visualize Data
+
+Section 3: Use MongoClient in Python
+$ pip3 install pymongo
