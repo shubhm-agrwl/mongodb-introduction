@@ -4,8 +4,13 @@ from pymongo import MongoClient
 
 __author__ = "Shubham Agrawal"
 
+# MongoClient connects with default local host and port
 myClient = MongoClient()
+
+# Creates "mydb" if it does not exist
 db = myClient.mydb
+
+# Creates "users" collection if it does not exist
 users = db.users
 
 # Count number of documents
